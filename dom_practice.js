@@ -26,5 +26,6 @@ document.querySelector('body').appendChild(newImg);
 
 // Remove an element:
 // 🔵 Select any element using querySelector and save it to a variable
-
+const footer = document.querySelector('footer');
 // 🔵 and remove it from your page using .remove()
+document.querySelector('body').removeChild(footer);
